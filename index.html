@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wenfeng Wang, Shanghai Jiao Tong University. Research in efficient AI systems, large-model inference, and memory management.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Wenfeng Wang | Academic Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="edge-circuit edge-circuit-left" aria-hidden="true"></div>
+  <div class="edge-circuit edge-circuit-right" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="header-inner">
+      <a class="site-name" href="#about">Wenfeng Wang</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="profile" aria-label="Personal information">
+      <!-- Replace the initials with <img class="portrait" src="assets/portrait.jpg" alt="Wenfeng Wang"> when a real portrait is available. -->
+      <div class="portrait initials" aria-hidden="true">WW</div>
+      <div class="profile-text">
+        <h1>Wenfeng Wang</h1>
+        <p class="degree">Master’s Student</p>
+        <p class="affiliation">Shanghai Jiao Tong University</p>
+        <p class="advisors">Advised by<br><a href="https://xfhelen.github.io/">Xiaofeng Hou</a> &amp; <a href="https://cs.sjtu.edu.cn/~lichao/">Chao Li</a></p>
+        <p class="field">Computer Architecture<br>&amp; AI Systems</p>
+        <ul class="profile-links">
+          <li><span class="link-icon" aria-hidden="true">⌖</span> Shanghai, China</li>
+          <li><span class="link-icon" aria-hidden="true">✉</span><a href="mailto:wangwenfeng@sjtu.edu.cn">Email</a></li>
+          <li><span class="link-icon scholar-icon" aria-hidden="true">G</span><a href="https://scholar.google.com.hk/citations?user=foZQfb8AAAAJ&amp;hl=en">Google Scholar</a></li>
+        </ul>
+        <div class="lab-affiliation">
+          <a class="university-mark" href="https://www.sjtu.edu.cn/" aria-label="Shanghai Jiao Tong University"><img src="assets/sjtu.png" alt="Shanghai Jiao Tong University emblem" width="48" height="48"></a>
+          <a class="lab-name" href="https://www.cs.sjtu.edu.cn/sail/"><strong>SAIL</strong><span>Sustainable Architecture<br>&amp; Intelligence Lab</span></a>
+        </div>
+      </div>
+    </aside>
+
+    <main id="main">
+      <div class="archive-header"><span>Academic profile</span><span>Architecture / Systems / AI</span></div>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a <strong>master’s student at Shanghai Jiao Tong University</strong>, advised by <a href="https://xfhelen.github.io/">Prof. Xiaofeng Hou</a> and <a href="https://cs.sjtu.edu.cn/~lichao/">Prof. Chao Li</a>. I am a member of the <a href="https://www.cs.sjtu.edu.cn/sail/">Sustainable Architecture and Intelligence Lab (SAIL)</a>.</p>
+        <p>My research focuses on <strong>computer architecture and systems for efficient AI</strong>, particularly large-model inference under limited computing and memory resources.</p>
+        <p>I study how model execution, memory management, and data movement can be coordinated to improve inference efficiency. My recent work explores mixture-of-experts (MoE) inference, speculative offloading, and KV-cache reuse for retrieval-augmented generation (RAG).</p>
+        <p>I welcome discussions and research collaborations on efficient AI systems. Feel free to reach me by <a href="mailto:wangwenfeng@sjtu.edu.cn">email</a>.</p>
+      </section>
+
+      <section id="research">
+        <h2>Research Interests</h2>
+        <ul class="interests">
+          <li><strong>Efficient LLM inference:</strong> MoE serving, speculative execution, and model quantization.</li>
+          <li><strong>Memory and storage systems:</strong> expert offloading, KV-cache reuse, and prefetching.</li>
+          <li><strong>Architecture–system co-design:</strong> coordinating computation and communication on resource-constrained platforms.</li>
+        </ul>
+      </section>
+
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li><time datetime="2026-09-23">Sep. 2026</time><span>Our work <a href="#specter">Specter</a> was accepted to <strong>ASPLOS 2027</strong>.</span></li>
+          <li><time datetime="2026-09-19">Sep. 2026</time><span>Our work <a href="#moe-lego">MoE-Lego</a> was accepted to <strong>ATC 2026</strong>.</span></li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <div class="section-heading">
+          <h2>Selected Publications</h2>
+          <a class="all-publications" href="https://scholar.google.com.hk/citations?user=foZQfb8AAAAJ&amp;hl=en">Full list on Google Scholar ↗</a>
+        </div>
+        <ol class="publications">
+          <li class="publication" id="specter">
+            <div class="venue">
+              <a class="venue-logo asplos-logo" href="https://www.asplos-conference.org/asplos2027/"><img src="assets/asplos-2027.png" alt="ASPLOS 2027 official logo" width="1540" height="250"></a>
+              <span>ASPLOS 2027</span>
+              <a class="ccf-rank" href="https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/">CCF A</a>
+            </div>
+            <div class="publication-content">
+              <h3>Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading</h3>
+              <p class="authors"><strong>Wenfeng Wang</strong>, Xiaofeng Hou, Xinfeng Xia, Xinkai Wang, Mingxuan Zhang, Peng Tang, Jiacheng Liu, and Chao Li.</p>
+              <p class="publication-venue">International Conference on Architectural Support for Programming Languages and Operating Systems, 2027.</p>
+              <p class="acceptance">2027 acceptance rate: <a href="#venue-data">not verified</a></p>
+              <div class="paper-actions"><a href="https://github.com/wwwwwf/specter_asplos">Code</a><details><summary>Overview</summary><p>A quantized draft model anticipates expert usage across multiple decoding steps, helping the runtime coordinate expert transfers and execution on memory-constrained hardware.</p></details></div>
+            </div>
+          </li>
+          <li class="publication" id="pcr">
+            <div class="venue">
+              <a class="venue-logo taco-logo" href="https://dl.acm.org/journal/taco"><img src="assets/acm.png" alt="ACM, publisher of TACO" width="192" height="192"><span>TACO</span></a>
+              <span>TACO 2026</span>
+              <a class="ccf-rank" href="https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/">CCF A</a>
+            </div>
+            <div class="publication-content">
+              <h3>PCR: A Prefetch-Enhanced Cache Reuse System for Low-Latency RAG Serving</h3>
+              <p class="authors"><strong>Wenfeng Wang</strong>, Xiaofeng Hou, Peng Tang, Jing Wang, Chao Li, and Minyi Guo.</p>
+              <p class="publication-venue">ACM Transactions on Architecture and Code Optimization, 2026.</p>
+              <p class="acceptance">2026 journal acceptance rate: <a href="#venue-data">not verified</a></p>
+              <div class="paper-actions"><details><summary>Overview</summary><p>Coordinated cache management, prefetching, and data transfers enable reuse of KV-cache chunks across GPU memory, host DRAM, and SSD.</p></details></div>
+            </div>
+          </li>
+          <li class="publication" id="moe-lego">
+            <div class="venue">
+              <a class="venue-logo sigops-logo" href="https://atc.sigops.org/2026/"><img src="assets/sigops.jpg" alt="ACM SIGOPS, organizer of ATC 2026" width="200" height="78"></a>
+              <span>ATC 2026</span>
+              <a class="ccf-rank" href="#venue-data">CCF A†</a>
+            </div>
+            <div class="publication-content">
+              <h3>MoE-Lego: A Plane-Grained System for Dynamic-Precision MoE Offloading</h3>
+              <p class="authors">Haozhe Wei, Xiaofeng Hou, <strong>Wenfeng Wang</strong>, Cheng Xu, Jiacheng Liu, Chao Li, and Minyi Guo.</p>
+              <p class="publication-venue">SIGOPS Annual Technical Conference, 2026.</p>
+              <p class="acceptance">2026 acceptance rate: <a href="#venue-data">not verified</a></p>
+            </div>
+          </li>
+        </ol>
+        <div class="venue-data" id="venue-data">
+          <p>† <a href="https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/">CCF lists USENIX ATC as A</a>; the conference moved to ACM SIGOPS in 2026. The current name is not separately listed in the checked directory.</p>
+          <details><summary>Acceptance-rate sources &amp; notes</summary><p>Checked on October 31, 2026. Exact-year acceptance rates could not be verified for <a href="https://www.asplos-conference.org/asplos2027/">ASPLOS 2027</a>, <a href="https://dl.acm.org/journal/taco">TACO 2026</a>, or <a href="https://atc.sigops.org/2026/">ATC 2026</a>. The ATC site lists 135 accepted papers, but a verified submission denominator was not found. Historical rates are not substituted for these years.</p></details>
+        </div>
+      </section>
+
+      <!-- Add Education, Teaching, and Academic Service sections here after the details are confirmed. -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:wangwenfeng@sjtu.edu.cn">wangwenfeng@sjtu.edu.cn</a><br>Shanghai Jiao Tong University, Shanghai, China</p>
+      </section>
+      <footer>© 2026 Wenfeng Wang <span>Last updated: October 2026</span></footer>
+    </main>
+  </div>
+</body>
+</html>
